@@ -50,6 +50,7 @@ modelInfo <- retrieveModel(paths)
    - RMSE: `r modelInfo$rmse`
   -  RSquared: `r modelInfo$rSq`
 -  Future work:
+  -  Gather more data to fix negative predicted values.
   -  Reduce RMSE and increase RSquared.
   -  Build a deeper neural network using more hidden layers.
   -  Experiment with parsimonious machine learning models (trees, random forest, ...) to explain relationships formally.

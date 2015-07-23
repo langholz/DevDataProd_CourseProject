@@ -46,6 +46,7 @@ Conclusion
    - RMSE: 5.5824378
   -  RSquared: 0.890947
 -  Future work:
+  -  Gather more data to fix negative predicted values.
   -  Reduce RMSE and increase RSquared.
   -  Build a deeper neural network using more hidden layers.
   -  Experiment with parsimonious machine learning models (trees, random forest, ...) to explain relationships formally.
