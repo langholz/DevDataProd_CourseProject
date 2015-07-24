@@ -29,7 +29,7 @@ trainDataAsNNet <- function (data) {
     tuneGrid <- expand.grid(.decay = 10 ^ seq(-4, 0, 0.5), .size = 1:15)
     nnetFit <- train(CompressiveStrength ~ .,
                      data = data,
-                     preProcess = "range",
+                     preProcess = c("BoxCox", "center", "scale"),
                      method = "nnet",
                      maxit = 5000,
                      trControl = trControl,

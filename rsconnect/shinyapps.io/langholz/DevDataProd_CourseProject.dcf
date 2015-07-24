@@ -1,8 +1,8 @@
 name: DevDataProd_CourseProject
 account: langholz
 server: shinyapps.io
-bundleId: 224296
+bundleId: 224952
 url: https://langholz.shinyapps.io/DevDataProd_CourseProject
-when: 1437619440.43388
+when: 1437704205.80147
 asMultiple: FALSE
 asStatic: FALSE
