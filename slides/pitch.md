@@ -35,7 +35,7 @@ Solution
 -  Leverage existing data for concrete mixture quantities of ingredients and performed compressive tests to:
   -  Build a machine learning model (using a neural network) to predict the compressive strength based on the quantity (kg / $m^3$) of the ingredients and age (days).
   -  Allow undestanding on how each ingredient affects the compressive strength while keeping other quantities fixed. Engineers can try out the interactions of increasing or reducing ingredient quantities.
-  -  This allows experimenting with no ingredients while **reducing cost, time and lives**.
+  -  This allows experimenting with no ingredients while **reducing cost, time and lives lost**.
 
 Conclusion
 ========================================================
@@ -43,10 +43,10 @@ Conclusion
 
 -  Online Web Application: https://langholz.shinyapps.io/DevDataProd_CourseProject
 -  Current model metrics: 
-   - RMSE: 5.5824378
-  -  RSquared: 0.890947
+   - RMSE: 5.3351995
+  -  RSquared: 0.8975612
 -  Future work:
-  -  Gather more data to fix negative predicted values.
+  -  Gather more data.
   -  Reduce RMSE and increase RSquared.
   -  Build a deeper neural network using more hidden layers.
   -  Experiment with parsimonious machine learning models (trees, random forest, ...) to explain relationships formally.
